@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ssh-add .vagrant/machines/default/virtualbox/private_key
+find .vagrant -name private_key | xargs ssh-add
