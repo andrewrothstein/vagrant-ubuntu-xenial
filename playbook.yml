@@ -2,6 +2,7 @@
 - hosts: all
   roles:
     - andrewrothstein.sudoers
+    - andrewrothstein.epel
     - andrewrothstein.ntp
     - andrewrothstein.nettools
     - andrewrothstein.git
