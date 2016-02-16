@@ -1,7 +1,6 @@
 ---
 etcd_cluster_name : test-etcd-cluster
+etcd_network_iface: eth1
 
-cassandra_cluster_name : test-cassandra-cluster
-cassandra_listen_network_interface : eth1
 
 

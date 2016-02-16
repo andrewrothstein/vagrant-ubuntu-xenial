@@ -1,0 +1,3 @@
+---
+cassandra_cluster_name : test-cassandra-cluster
+cassandra_listen_network_interface : eth1
