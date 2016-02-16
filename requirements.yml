@@ -1,5 +1,11 @@
 ---
 - src: andrewrothstein.sudoers
 - src: andrewrothstein.epel
+- src: andrewrothstein.influxdb
+- src: andrewrothstein.etcd
+- src: andrewrothstein.elasticsearch
+- src: andrewrothstein.cassandra
+
+
 
                                     

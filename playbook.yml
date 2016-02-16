@@ -3,3 +3,7 @@
   roles:
     - andrewrothstein.sudoers
     - andrewrothstein.epel
+    - andrewrothstein.etcd
+    - andrewrothstein.influxdb
+    - andrewrothstein.cassandra
+    - andrewrothstein.elasticsearch
