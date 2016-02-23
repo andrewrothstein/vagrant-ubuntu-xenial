@@ -5,7 +5,4 @@
 - src: andrewrothstein.etcd
 - src: andrewrothstein.elasticsearch
 - src: andrewrothstein.cassandra
-
-
-
-                                    
+- src: andrewrothstein.ntp
