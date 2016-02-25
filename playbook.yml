@@ -7,3 +7,5 @@
     - andrewrothstein.etcd
     - andrewrothstein.influxdb
     - andrewrothstein.elasticsearch
+    - andrewrothstein.docker
+
