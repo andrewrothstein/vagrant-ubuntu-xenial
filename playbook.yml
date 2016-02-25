@@ -6,5 +6,4 @@
     - andrewrothstein.ntp
     - andrewrothstein.etcd
     - andrewrothstein.influxdb
-    - andrewrothstein.cassandra
     - andrewrothstein.elasticsearch
