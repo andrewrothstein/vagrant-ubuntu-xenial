@@ -8,4 +8,5 @@
     - andrewrothstein.influxdb
     - andrewrothstein.elasticsearch
     - andrewrothstein.docker
+    - andrewrothstein.consul
 
