@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 vagrant destroy -f
-rm -rf .ansible-playbooks
+rm -rf .ansible-roles
