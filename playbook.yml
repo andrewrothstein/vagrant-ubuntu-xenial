@@ -9,4 +9,6 @@
     - andrewrothstein.elasticsearch
     - andrewrothstein.docker
     - andrewrothstein.consul
-
+    - andrewrothstein.docker-py
+    - andrewrothstein.docker-swarm
+#    - '~/git/github.com/andrewrothstein/ansible-docker-swarm'

@@ -8,3 +8,6 @@
 - src: andrewrothstein.ntp
 - src: andrewrothstein.docker
 - src: andrewrothstein.consul
+- src: andrewrothstein.docker-py
+- src: andrewrothstein.docker-swarm
+  
