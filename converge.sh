@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ansible-playbook -f 3 playbook.yml
+ansible-playbook -f 10 playbook.yml
