@@ -5,7 +5,6 @@
 - src: andrewrothstein.influxdb
 - src: andrewrothstein.etcd
 - src: andrewrothstein.elasticsearch
-- src: andrewrothstein.ntp
 - src: andrewrothstein.docker
 - src: andrewrothstein.consul
 - src: andrewrothstein.docker-py
