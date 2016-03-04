@@ -9,4 +9,6 @@
 - src: andrewrothstein.consul
 - src: andrewrothstein.docker-py
 - src: andrewrothstein.docker-swarm
+- src: andrewrothstein.orientdb
+
   
