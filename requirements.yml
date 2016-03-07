@@ -2,13 +2,11 @@
 - src: andrewrothstein.sudoers
 - src: andrewrothstein.epel
 - src: andrewrothstein.ntp
-- src: andrewrothstein.influxdb
 - src: andrewrothstein.etcd
-- src: andrewrothstein.elasticsearch
-- src: andrewrothstein.docker
 - src: andrewrothstein.consul
+- src: andrewrothstein.docker
 - src: andrewrothstein.docker-py
 - src: andrewrothstein.docker-swarm
-- src: andrewrothstein.orientdb
+
 
   

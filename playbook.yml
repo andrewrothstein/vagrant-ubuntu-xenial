@@ -5,10 +5,8 @@
     - andrewrothstein.epel
     - andrewrothstein.ntp
     - andrewrothstein.etcd
-    - andrewrothstein.influxdb
-    - andrewrothstein.elasticsearch
-    - andrewrothstein.docker
     - andrewrothstein.consul
+    - andrewrothstein.docker
     - andrewrothstein.docker-py
     - andrewrothstein.docker-swarm
-    - andrewrothstein.orientdb
+
