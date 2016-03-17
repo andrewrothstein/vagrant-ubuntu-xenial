@@ -9,4 +9,4 @@
     - andrewrothstein.docker
     - andrewrothstein.docker-py
     - andrewrothstein.docker-swarm
-
+    - andrewrothstein.ignite

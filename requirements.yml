@@ -7,6 +7,4 @@
 - src: andrewrothstein.docker
 - src: andrewrothstein.docker-py
 - src: andrewrothstein.docker-swarm
-
-
-  
+- src: andrewrothstein.ignite
