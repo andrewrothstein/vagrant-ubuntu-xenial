@@ -2,6 +2,7 @@
 - src: andrewrothstein.sudoers
 - src: andrewrothstein.epel
 - src: andrewrothstein.ntp
+- src: andrewrothstein.ssl-key
 - src: andrewrothstein.etcd
 - src: andrewrothstein.consul
 - src: andrewrothstein.docker

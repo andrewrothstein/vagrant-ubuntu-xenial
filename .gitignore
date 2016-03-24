@@ -2,6 +2,5 @@
 .vagrant
 .ansible-roles/*
 *.retry
-*-key.pem
-*.csr
-*.pem
+pki-dir/*.pem
+pki-dir/*.csr

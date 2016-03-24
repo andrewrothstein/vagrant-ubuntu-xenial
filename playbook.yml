@@ -4,6 +4,7 @@
     - andrewrothstein.sudoers
     - andrewrothstein.epel
     - andrewrothstein.ntp
+    - andrewrothstein.ssl-key
     - andrewrothstein.etcd
     - andrewrothstein.consul
     - andrewrothstein.docker
