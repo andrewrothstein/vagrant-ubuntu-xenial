@@ -14,7 +14,7 @@ echo CA files...
 ls -l $PKI_DIR/ca*
 
 DOMAIN=vagrant
-CLUSTER=centos-7
+CLUSTER=ubuntu-xenial
 function getkey
 {
     WORKER_NO=$1

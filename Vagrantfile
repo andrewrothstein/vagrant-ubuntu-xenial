@@ -13,12 +13,12 @@ Vagrant.configure(2) do |config|
   $num_instances = 4
 
   (1..$num_instances).each do |i|
-    config.vm.define vm_name = "centos-7-%02d.vagrant"  % [i] do |config|
+    config.vm.define vm_name = "ubuntu-xenial-%02d.vagrant"  % [i] do |config|
       config.vm.hostname = vm_name
       
       # Every Vagrant development environment requires a box. You can search for
       # boxes at https://atlas.hashicorp.com/search.
-      config.vm.box = "bento/centos-7.2"
+      config.vm.box = "gbarbieru/xenial"
 
       # Disable automatic box update checking. If you disable this, then
       # boxes will only be checked for updates when the user runs
@@ -32,7 +32,7 @@ Vagrant.configure(2) do |config|
       
       # Create a private network, which allows host-only access to the machine
       # using a specific IP.
-      ip = "192.168.33.#{i+6}"
+      ip = "192.168.33.#{i+9}"
       config.vm.network :private_network, ip: ip
 
       # Create a public network, which generally matched to bridged network.
@@ -78,7 +78,8 @@ Vagrant.configure(2) do |config|
       config.vm.provision "shell" do |s|
         ssh_pub_key = File.readlines("#{Dir.home}/.ssh/id_rsa.pub").first.strip
         s.inline = <<-SHELL
-      echo #{ssh_pub_key} >> /home/vagrant/.ssh/authorized_keys
+      echo #{ssh_pub_key} >> /home/vagrant/.ssh/authorized_keys;
+      apt-get update -y; apt-get upgrade -y; apt-get install -y python ca-certificates;
     SHELL
       end
     end
