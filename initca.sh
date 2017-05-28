@@ -13,7 +13,7 @@ fi
 echo CA files...
 ls -l $PKI_DIR/ca*
 
-DOMAIN=vagrant
+DOMAIN=vagrant.test
 CLUSTER=ubuntu-xenial
 function getkey
 {
@@ -35,7 +35,7 @@ function getkey
     ls -l $PKI_DIR/$HOSTNAME*
 }
 
-for hostid in '01' '02' '03' '04'
+for hostid in '01'
 do
     getkey $hostid
 done

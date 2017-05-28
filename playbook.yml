@@ -2,12 +2,7 @@
 - hosts: all
   roles:
     - andrewrothstein.sudoers
-    - andrewrothstein.epel
     - andrewrothstein.ntp
-    - andrewrothstein.ssl-key
     - andrewrothstein.etcd
     - andrewrothstein.consul
     - andrewrothstein.docker
-    - andrewrothstein.docker-py
-    - andrewrothstein.docker-swarm
-    - andrewrothstein.ignite

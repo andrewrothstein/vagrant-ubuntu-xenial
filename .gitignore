@@ -4,3 +4,4 @@
 *.retry
 pki-dir/*.pem
 pki-dir/*.csr
+*.log
